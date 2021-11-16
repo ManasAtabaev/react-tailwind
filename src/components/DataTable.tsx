@@ -9,7 +9,6 @@ export default function DataTable(props: DataTableProps) {
         style: 'currency',
         currency: 'USD',
     });
-    console.log(props.data);
 
     return (
         <div className="flex flex-col">
